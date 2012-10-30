@@ -12,7 +12,8 @@ start Kupfer (a launcher), launch Firefox and the editor Emacs.
 DEPENDENCIES
 ------------
 
-```sudo aptitude install xmonad kupfer gnome-panel
+```bash
+sudo aptitude install xmonad kupfer gnome-panel
 ```
 
 CONFIGURATION
@@ -20,8 +21,7 @@ CONFIGURATION
 
 My configuration file is present in this repo. Just copy it to:
 
-```~/.xmonad/xmonad.hs
-```
+`~/.xmonad/xmonad.hs`
 
 Create the .xmonad directory if it does not exist.
 
